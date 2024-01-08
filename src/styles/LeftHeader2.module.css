@@ -1,0 +1,14 @@
+.LeftHeader2 {
+  position: relative;
+  left: -74px;
+  top: 232px;
+  margin: 5px;
+  font-size: 4rem;
+  width: 100%;
+  padding: 29px;
+  border: 9px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
