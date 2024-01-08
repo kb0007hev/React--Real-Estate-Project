@@ -5,7 +5,7 @@ function RealEstateList({name}) {
     
     return (
 
-                <div className={styles.RealEstateList_rightPage}> 
+                <div className="RealEstateList_rightPage"> 
                 <h1> {name}  </h1>
                 
                 </div> 
