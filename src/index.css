@@ -10,10 +10,11 @@
 
 
 .HomePage1_leftpage{
-    height: 99vh;
+    height: 100vh;
     width: 50%; 
     /* max-width: 600px; */
     min-width: 770px; 
+    max-width: 2818px; 
     margin: 6px;
     /* display: block; */
     outline: black solid 5px;
@@ -39,10 +40,11 @@
 }
 
 .RealEstateList_rightPage {
-    height: 99vh;
+    height: 100vh;
       width: 50%; 
       /* max-width: 600px; */
       min-width: 770px; 
+      max-width: 2818px; 
       margin: 6px;
       /* display: inline-flex; */
       outline: black solid 5px;
@@ -85,22 +87,37 @@
     padding-bottom: 30px;
   }
 
-  .HomePage1_form{
+  .HomePage1_form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    justify-items: center;
-    width: 100%;
     text-align: center;
-    margin: auto;
     position: relative;
-    left: 297px;
-    bottom: 11px; 
-  }
+    bottom: 30px; 
+    margin: 5px;
 
-  .HomePage1_form input{
-    margin: 2px;
-    outline: 1.5px solid #000; 
-    width: 25%;  
   }
-
+  
+  .HomePage1_form label {
+    margin-bottom: 1.5px;
+    font-weight: 700; 
+  }
+  
+  .HomePage1_form input {
+    /* margin-bottom: 10px; */
+    outline: 1.5px solid #000;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 0.5px;
+    border-radius: 4px;
+  }
+  
+  .HomePage1_form button {
+    width: 250px;
+    height: 23px;
+    margin: 8px; 
+    font-weight: 700; 
+    border-radius: 4px;
+    outline: 2px solid #000;
+  }

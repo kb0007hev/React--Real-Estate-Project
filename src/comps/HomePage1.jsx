@@ -21,18 +21,21 @@ return (
             <h3>{props.quote3}</h3>
             <div className="HomePage1-lowerBox"></div>
 
-            <form className="HomePage1_form">
 
-                  <lable for="zip"> ZIP CODE </lable>
-                  <input id="zip" name="zip" type="text" />
 
-                  <lable>RADIUS</lable>
-                  <input id="input" name="name" type="text" />
-                  
-                  <button type="submit" />
-            </form>
-                
-       </div>
+<form class="HomePage1_form">
+  <label for="zip">ZIP CODE</label>
+  <input id="zip" name="zip" type="text" />
+  
+
+  <label for="radius">RADIUS</label>
+  <input id="radius" name="radius" type="text" />
+
+
+  <button type="submit">Button</button>
+</form>
+
+</div>
             
       
   );       
