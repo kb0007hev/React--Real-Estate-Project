@@ -40,7 +40,7 @@ function App() {
         
         
       />
-      <RealEstateList name="Real Estate Listings" />
+      <RealEstateList name="Real Estate Search" />
     </div>
   );
 }
