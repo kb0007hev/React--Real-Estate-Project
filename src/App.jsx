@@ -5,15 +5,16 @@ import RealEstateList from "./comps/RealEstateList";
 import "./index.css";
 
 function App() {
-  const quote1 =
-    "Don't wait to buy real estate, buy real estate and wait. - Will Rogers";
+  const quote1 = "Don't wait to buy real estate, buy real estate and wait. - Will Rogers";
   const kevin1 = "You heard that from Kevin";
 
   const quote2 = "The best investment on Earth is earth. - Louis Glickman";
   const kevin2 = "You can take that to the bank";
+
   const img = <img src="/images/SoldHouse.jpg" />;
 
-  console.log(img)
+  const quote3 = "We get them quick, we sell them fast, get it while it’s getting, while they last!"
+
 
   return (
     <div className="AppContainer">
@@ -24,6 +25,7 @@ function App() {
         quote2={quote2}
         kevin2={kevin2}
         img={img}
+        quote3={quote3}
         
       />
       <RealEstateList name="Real Estate Listings" />

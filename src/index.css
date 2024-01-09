@@ -3,6 +3,9 @@
     justify-content: center;
     width: 100%;
     text-align: center;
+    /* background-color: cornsilk; */
+    position: relative;
+    z-index: -2;
 }
 
 
@@ -19,6 +22,21 @@
     position: relative;
 }
 
+.HomePage1_leftpage h3{
+    position: relative;
+    bottom: 27px;
+        color: #00E; 
+        font-weight: 900;
+        font-size: 22px;
+}
+
+.HomePage1-lowerBox{
+    width: 100%;
+    height: 173px;
+    border: 3px solid #000; 
+    position: relative;
+    bottom: 26px; 
+}
 
 .RealEstateList_rightPage {
     height: 99vh;
@@ -53,7 +71,10 @@
 .image-container {
     width: 100%;
     height: 420px;
-    position: absolute;
+    position: relative;
+    bottom: 30px;
+    z-index: -1;
+    padding-top: 40px;
   }
 
 
@@ -62,5 +83,24 @@
     height: 100%;
     object-position: center;
     padding-bottom: 30px;
-    
   }
+
+  .HomePage1_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 297px;
+    bottom: 11px; 
+  }
+
+  .HomePage1_form input{
+    margin: 2px;
+    outline: 1.5px solid #000; 
+    width: 25%;  
+  }
+
