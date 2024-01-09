@@ -1,6 +1,4 @@
 #  REAL ESTATE COMPANY
-####  WEBSITE: 
- 
 
 ### MOTIVATION
 
