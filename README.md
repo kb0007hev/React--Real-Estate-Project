@@ -1,8 +1,15 @@
-# React + Vite
+#  REAL ESTATE COMPANY
+####  WEBSITE: 
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### MOTIVATION
 
-Currently, two official plugins are available:
+> This is a Per Scholas Project I built as part of our Second Project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### TECHNOLOGIES
+> REACT
+
+
+### CREDITS
+
+> I'm giving credits to Per Scholas our school, and **Jade Del Rosario-Bell**, and **Oussama Hamani** our >school teachers 

@@ -33,11 +33,11 @@ return (
 
 <form class="HomePage1_form">
   <label for="zip">ZIP CODE</label>
-  <input id="zip" name="zip" type="text" />
+  <input id="zip" name="zip" type="text" placeholder="zip" />
   
 
   <label for="radius">RADIUS</label>
-  <input id="radius" name="radius" type="text" />
+  <input id="radius" name="radius" type="text" placeholder="radius"/>
 
 
   <button type="submit">Button</button>
