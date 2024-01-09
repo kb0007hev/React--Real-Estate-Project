@@ -7,6 +7,9 @@
 ### TECHNOLOGIES
 > REACT
 
+### DESCRIPTION
+> Real Estate Company Website that offers free real estate homes searches for clients. 
+
 
 ### CREDITS
 
