@@ -19,7 +19,15 @@ return (
             <h2>{props.kevin2}</h2>
             <div className="image-container"> {props.img} </div>
             <h3>{props.quote3}</h3>
-            <div className="HomePage1-lowerBox"></div>
+
+            <div className="HomePage1-lowerBox">
+            <p>{props.statement1}</p>
+            <p>{props.statement2}</p>
+            <div>{props.statement3}</div>
+            <div>{props.statement4}</div>
+            <div>{props.statement5}</div>
+
+            </div>
 
 
 

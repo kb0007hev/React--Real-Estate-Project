@@ -15,6 +15,11 @@ function App() {
 
   const quote3 = "We get them quick, we sell them fast, get it while it’s getting, while they last!"
 
+  const statement1 = "IF YOU ARE A CLIENT LOOKING FOR RESIDENTIAL REAL ESTATE  TO RENT OR PURCHASE IN THE WHOLE STATE OF MICHIGAN"
+  const statement2 = " --- WE ARE EXPERTS ---  ---CALL US IF YOU HAVE ANY QUESTIONS ---"
+  const statement3 = "IN THE MEAN TIME, FEEL FREE TO USE OUR PROPRIETARY CLIENT PROPERTY SEARCH PROGRAM THAT RETURNS REAL TIME DATA."
+  const statement4 = "CLIENT PROPERTY SEARCH "
+  const statement5 = "Search and explore a wide range of residential properties, including houses, condos, townhouses and apartments."
 
   return (
     <div className="AppContainer">
@@ -26,6 +31,13 @@ function App() {
         kevin2={kevin2}
         img={img}
         quote3={quote3}
+
+        statement1={statement1}
+        statement2={statement2}
+        statement3={statement3}
+        statement4={statement4}
+        statement5={statement5}
+        
         
       />
       <RealEstateList name="Real Estate Listings" />

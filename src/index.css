@@ -39,6 +39,21 @@
     bottom: 45px; 
 }
 
+.HomePage1-lowerBox div {
+  font-size: 15px;
+  text-align: left;
+  margin-bottom:6.5px;
+  font-weight: 200;
+}
+
+.HomePage1-lowerBox p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+
 .RealEstateList_rightPage {
     height: 100vh;
       width: 50%; 
