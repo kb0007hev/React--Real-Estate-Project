@@ -33,9 +33,9 @@ function API({name}) {
                         <h1> {name}  </h1>
 
                 <form class="HomePage1_form" onSubmit={handleClick}>
-                        <label for="zip">ZIP CODE</label>
+                        <label for="zip"></label>
                         <input id="zip" name="zip" type="text" placeholder="zip" />
-                        <label for="radius">RADIUS</label>
+                        <label for="radius"></label>
                         <input id="radius" name="radius" type="text" placeholder="radius"/>
                         <button >Button</button>
                         
