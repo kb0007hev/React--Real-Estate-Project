@@ -1,10 +1,4 @@
 import React from "react";
-// import LeftHeader2 from "./LeftHeader2";
-// import SearchBar3 from "./SearchBar3";
-// import EmployeeList4 from "./EmployeeList4"
-// import EmployeePage7 from "./RealEstateList"
-// import EmployeeHeader6 from "./EmployeeHeader6"
-import styles from "../styles/HomePage1.module.css";
 import "../index.css";
 
 
@@ -20,28 +14,7 @@ return (
             <div className="image-container"> {props.img} </div>
             <h3>{props.quote3}</h3>
 
-            <div className="HomePage1-lowerBox">
-            <p>{props.statement1}</p>
-            <p>{props.statement2}</p>
-            <div>{props.statement3}</div>
-            <div>{props.statement4}</div>
-            <div>{props.statement5}</div>
-
-            </div>
-
-
-
-<form class="HomePage1_form">
-  <label for="zip">ZIP CODE</label>
-  <input id="zip" name="zip" type="text" placeholder="zip" />
-  
-
-  <label for="radius">RADIUS</label>
-  <input id="radius" name="radius" type="text" placeholder="radius"/>
-
-
-  <button type="submit">Button</button>
-</form>
+        
 
 </div>
             

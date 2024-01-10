@@ -1,7 +1,7 @@
 import React from "react";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage1 from "./comps/HomePage1";
-import RealEstateList from "./comps/RealEstateList";
+import RightPage from "./comps/RightPage";
 import "./index.css";
 
 function App() {
@@ -31,16 +31,21 @@ function App() {
         kevin2={kevin2}
         img={img}
         quote3={quote3}
-
-        statement1={statement1}
-        statement2={statement2}
-        statement3={statement3}
-        statement4={statement4}
-        statement5={statement5}
-        
-        
       />
-      <RealEstateList name="Real Estate Search Results" />
+
+
+      <RightPage 
+      
+      name="Real Estate Search Results" 
+      
+      statement1={statement1}
+      statement2={statement2}
+      statement3={statement3}
+      statement4={statement4}
+      statement5={statement5}
+      
+      
+      />
     </div>
   );
 }
